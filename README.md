@@ -5,7 +5,7 @@ This repository contains sample code that demonstrates a problem with using
 `ServiceTracker` at the same time as OSGi Declarative Services.
 
 For more information and background, see the corresponding blog post at:
-https://alblue.bandlem.com/2020/07/why-servicetracker-is-bad
+https://alblue.bandlem.com/2020/07/why-servicetracker-is-bad.html
 
 Client
 ------
