@@ -35,7 +35,7 @@ public class Activator implements BundleActivator {
 			}
 		});
 		if(!Boolean.getBoolean("disableOpen")) {
-			serviceTracker.open(); // This will cause a DS component to be instantiated even though we don't use it
+			serviceTracker.open(); // This will NOT cause a DS component to be instantiated
 		}
 	}
 
